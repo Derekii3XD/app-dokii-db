@@ -62,3 +62,11 @@ server.put('/usuario/:id', (req, res) => {
     res.status(404).json({ success: false, message: 'Usuario no encontrado' });
   }
 });
+
+
+server.use((req, res, next) => {
+  if (req.url === '/') {
+    return res.redirect('/usuario'); // Redirige a la ruta principal de la base de datos
+  }
+  next();
+});
