@@ -1,0 +1,134 @@
+{
+  "usuario": [
+    {
+      "id": "1",
+      "nombre": "Benjamin Jose",
+      "apellido": "Martinez Dolce",
+      "email": "benjalolero16@gmail.com",
+      "clave": "hola123",
+      "rol": "admin"
+    },
+    {
+      "nombre": "luisitoelpillinsito",
+      "apellido": "mojondoble",
+      "email": "luisito2@gmail.com",
+      "clave": "hola123",
+      "rol": "user",
+      "id": "G8hrPrV"
+    }
+  ],
+  "login": [
+    {
+      "email": "admin@admin.com",
+      "clave": "hola123"
+    }
+  ],
+  "producto": [
+    {
+      "id": "1",
+      "nombre": "headsets Redragon",
+      "descripcion": "Geniales Audifonos No tan gamers",
+      "precio": 450000,
+      "cantidad": 222,
+      "imagen": "https://media.spdigital.cl/thumbnails/products/vhvqgcof_2e680c36_thumbnail_4096.png",
+      "catalogo": "headsets",
+      "enOferta": false,
+      "precioOferta": 0
+    },
+    {
+      "id": "2",
+      "nombre": "Audifonos de pana",
+      "descripcion": "Los mejore audifonos gamer para GAYS",
+      "precio": 30000,
+      "cantidad": 15,
+      "imagen": "https://dojiw2m9tvv09.cloudfront.net/49938/product/pana-hje-125-azul9678.jpg",
+      "catalogo": "audifonos",
+      "enOferta": true,
+      "precioOferta": 15000
+    },
+    {
+      "id": "3",
+      "nombre": "Mouse Ganmer",
+      "descripcion": "Increible mouse con increible DPI",
+      "precio": 50000,
+      "cantidad": 5,
+      "imagen": "https://resource.logitechg.com/w_1800,c_limit,f_auto,q_auto:best,f_auto,dpr_auto/content/dam/gaming/en/products/g502-hero/g502-hero-intro.png",
+      "catalogo": "mouse",
+      "enOferta": true,
+      "precioOferta": 25000
+    },
+    {
+      "nombre": "Logitech g pro X TKL",
+      "descripcion": "Increible teclado Logitech G Pro, con este teclado podras alcansar el nivel en videojuegos que tanto has buscado",
+      "precio": 70000,
+      "cantidad": 6,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_909965-MLU74111567657_012024-O.webp",
+      "catalogo": "teclado",
+      "enOferta": true,
+      "precioOferta": 50000,
+      "id": "kbrscNO"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "usuarioId": "1",
+      "productos": [
+        {
+          "productoId": "2",
+          "nombre": "Audifonos de pana",
+          "cantidad": 2,
+          "precio": 30000
+        },
+        {
+          "productoId": "3",
+          "nombre": "Mouse Gamer",
+          "cantidad": 1,
+          "precio": 50000
+        }
+      ],
+      "direccion": "Calle Falsa 123",
+      "nota": "Por favor, dejar en la puerta",
+      "recibidoPorOtraPersona": true,
+      "datosReceptor": {
+        "nombre": "Juan Pérez",
+        "telefono": "+56912345678"
+      },
+      "total": 110000,
+      "fecha": "2024-11-22"
+    },
+    {
+      "usuarioId": null,
+      "productos": [],
+      "total": 0,
+      "direccion": "calle werken 16127",
+      "nota": "tocar timbre dentro de la puerta",
+      "recibeOtro": true,
+      "nombreRecibe": "Benjamin Martinez",
+      "telefonoRecibe": "921971058",
+      "id": "HhbCuQe"
+    },
+    {
+      "usuarioId": null,
+      "productos": [],
+      "total": 0,
+      "direccion": "los membrillos 12643",
+      "nota": "gritar para adentro",
+      "recibeOtro": true,
+      "nombreRecibe": "Rosa del carmen",
+      "telefonoRecibe": "91291293",
+      "id": "StS6P6I"
+    },
+    {
+      "usuarioId": null,
+      "productos": [],
+      "total": 0,
+      "direccion": "madre mia 123",
+      "nota": "tiralo pa dentro",
+      "recibeOtro": false,
+      "nombreRecibe": "",
+      "telefonoRecibe": "",
+      "id": "UFzpv6h"
+    }
+  ]
+}
